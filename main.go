@@ -27,7 +27,7 @@ func main() {
 		fmt.Printf("Key: %s\n", song.Key)
 		fmt.Printf("TimeSig: %s\n", song.TimeSig)
 		for i, m := range song.Music {
-			fmt.Printf("  Measure %d: %v\n", i+1, m)
+			fmt.Printf("  Measure %d: %+v\n", i+1, m)
 		}
 		fmt.Println()
 	}
